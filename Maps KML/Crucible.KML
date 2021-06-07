@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document><name>My document</name>
+<description>Content</description>
+<Style id="Lump">
+<LineStyle><color>CD0000FF</color><width>2</width></LineStyle>
+<PolyStyle><color>9AFF0000</color></PolyStyle>
+</Style>
+<Style id="Path">
+<LineStyle><color>FF0000FF</color><width>3</width></LineStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+
+ <Placemark>
+    <name>Cruicible Theatre</name>
+    <description>
+        <![CDATA[
+      <p>The <a href="https://en.wikipedia.org/wiki/Crucible_Theatre">Crucible Theatre</a> is best known for hosting professional snooker's most prestigious tournament, the World Snooker Championship.</p>
+      <img src="https://i.guim.co.uk/img/media/7ce75d18dfb52182ab85bc7f4678696b0431cabc/0_354_4130_2478/master/4130.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=521cb472592044dd5f502d3dc8aec97e" height="100px" />
+            ]]>
+    </description>
+    <Point>
+      <coordinates>-1.466885,53.381123,0.0</coordinates>
+    </Point>
+  </Placemark>
+
+
+<Placemark><name>NAME</name>
+<description>YES</description>
+<styleUrl>#Lump</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<altitudeMode>clampToGround</altitudeMode>
+<outerBoundaryIs><LinearRing><coordinates>
+-1.467711,53.381020,0.0 
+-1.466874,53.381494,0.0 
+-1.466096,53.381212,0.0 
+-1.466118,53.380857,0.0 
+-1.466965,53.380710,0.0 
+-1.467711,53.381020,0.0 
+</coordinates></LinearRing></outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Document>
+</kml>

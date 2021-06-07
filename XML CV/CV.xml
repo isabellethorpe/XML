@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CV.xslt"?>
+<CVs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CV.xsd">
+	<CV>
+		<name>Isabelle Thorpe</name>
+		<occupation>Web Developer</occupation>
+		<profile>Fast-learner and effective decision maker, looking to further
+        capabilities in Web Development. Thirst for knowledge coupled with creativity
+        and discipline, leading to cleanly written code using modern applications.
+        Real interest in research and full comprehension of user.</profile>
+		<contact>
+			<address>St Albans, United Kingdom</address>
+			<phone>07587323741</phone>
+			<email>isabelle_thorpe@outlook.com</email>
+		</contact>
+		<experience>
+			<employment>
+				<job>
+					<establishment>BUCKS NEW UNIVERSITY</establishment>
+					<title>Computing and Web Development Undergraduate</title>
+					<from>2021</from>
+					<to>Present</to>
+					<keyRoles>
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>JavaScript</p>
+						<p>Bootstrap</p>
+						<p>UX/UI</p>
+						<p>Java, C# </p>
+						<p>Computer Architecture and Networking</p>
+					</keyRoles>
+				</job>
+				<job>
+					<establishment>SPINNERS HOSTEL</establishment>
+					<title>Hostel Supervisor</title>
+					<from>2020</from>
+					<keyRoles>
+						<p>Reception management</p>
+						<p>Call handling / Bookings system / Administration</p>
+						<p>Customer care</p>
+						<p>Hostel Maintenance</p>
+						<p>Event Organising</p>
+					</keyRoles>
+				</job>
+				<job>
+					<establishment>IPG</establishment>
+					<title>Sales Consultant</title>
+					<from>2018</from>
+					<to>2019</to>
+					<keyRoles>
+						<p>Relationship development / Rapport Building</p>
+						<p>Self-motivation and enthusiasm</p>
+						<p>Strategic prospecting skills</p>
+					</keyRoles>
+				</job>
+				<job>
+					<establishment>THE YARD RESTAURANT</establishment>
+					<title>Manager</title>
+					<from>2018</from>
+					<to>2019</to>
+					<keyRoles>
+						<p>Management / Team leadership</p>
+						<p>Hiring and training new personnel</p>
+						<p>Improving business performance</p>
+						<p>Marketing, advertising, event planning</p>
+						<p>Co-ordinating stock and staff costs</p>
+					</keyRoles>
+				</job>
+			</employment>
+			<keySkills>
+				<skill>Web Development</skill>
+				<skill>Customer Services</skill>
+				<skill>Management</skill>
+				<skill>Marketing and Sales</skill>
+				<skill>Microsoft Office</skill>
+			</keySkills>
+			<qualifications>
+				<educationalEstablishment>Bucks New University</educationalEstablishment>
+				<Award>TBD</Award>
+				<yearFrom>2021</yearFrom>
+				<yearTo>Present</yearTo>
+			</qualifications>
+			<qualifications>
+				<educationalEstablishment>Sandringham School and Oaklands College</educationalEstablishment>
+				<Award>5 AS / A Levels A* - D</Award>
+				<yearFrom>2012</yearFrom>
+				<yearTo>2017</yearTo>
+			</qualifications>
+		</experience>
+		<references>
+			<reference>
+				<referenceEstablishment>SPINNERS HOSTEL</referenceEstablishment>
+				<referenceName>Joel Medalia – Hostel Owner</referenceName>
+			</reference>
+			<reference>
+				<referenceEstablishment>THE YARD RESTAURANT</referenceEstablishment>
+				<referenceName>Karen Benton – Restaurant Owner</referenceName>
+				<p>Contact info available upon request.</p>
+			</reference>
+		</references>
+	</CV>
+</CVs>

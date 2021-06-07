@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CVs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="p" nillable="true">
+        <xs:complexType>
+            <xs:simpleContent msdata:ColumnName="p_Text" msdata:Ordinal="0">
+                <xs:extension base="xs:string">
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CVs" msdata:IsDataSet="true" msdata:Locale="en-US">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="p" />
+                <xs:element name="CV">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" minOccurs="0" />
+                            <xs:element name="occupation" type="xs:string" minOccurs="0" />
+                            <xs:element name="profile" type="xs:string" minOccurs="0" />
+                            <xs:element name="contact" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="address" type="xs:string" minOccurs="0" />
+                                        <xs:element name="phone" type="xs:string" minOccurs="0" />
+                                        <xs:element name="email" type="xs:string" minOccurs="0" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="experience" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="employment" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="job" minOccurs="3" maxOccurs="6">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="establishment" type="xs:string" minOccurs="0" />
+                                                                <xs:element name="title" type="xs:string" minOccurs="0" />
+                                                                <xs:element name="from" type="xs:string" minOccurs="0" />
+                                                                <xs:element name="to" type="xs:string" minOccurs="0" />
+                                                                <xs:element name="keyRoles" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element ref="p" minOccurs="0" maxOccurs="unbounded" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element ref="p" minOccurs="0" maxOccurs="unbounded" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="keySkills" minOccurs="3" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="skill" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent msdata:ColumnName="skill_Text" msdata:Ordinal="0">
+                                                                <xs:extension base="xs:string">
+                                                                </xs:extension>
+                                                            </xs:simpleContent>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="qualifications" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="educationalEstablishment" type="xs:string" minOccurs="0" />
+                                                    <xs:element name="Award" type="xs:string" minOccurs="0" />
+                                                    <xs:element name="yearFrom" type="xs:string" minOccurs="0" />
+                                                    <xs:element name="yearTo" type="xs:string" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="references" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="reference" minOccurs="0" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="referenceEstablishment" type="xs:string" minOccurs="0" />
+                                                    <xs:element name="referenceName" type="xs:string" minOccurs="0" />
+                                                    <xs:element name="p" type="xs:string" minOccurs="0" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

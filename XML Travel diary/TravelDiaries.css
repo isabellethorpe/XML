@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
+
+body {
+    background-color: #e07a5f;
+    padding: 20px;
+}
+
+img {
+    position: inherit;
+    width: 200px;
+}
+
+table {
+    width: 100%;
+    background-color: #fffff9;
+}
+
+table, th, td {
+    color: #3d405b;
+    table-layout: fixed;
+    padding: 10px;
+    border: 2px solid #3C403D;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Lato;
+}
+
+td {
+    position:relative;
+    padding: 10px;
+    width: 100%;
+}
+
+h1 {
+    color: #3d405b;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Lobster;
+}
+
+h2 {
+    color: #3d405b;
+    text-align: center;
+    font-family: Lobster;
+    padding-top: 10px;
+}
+

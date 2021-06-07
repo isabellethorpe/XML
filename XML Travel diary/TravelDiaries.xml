@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8›"?>
+<?xml-stylesheet type="text/xsl" href="TravelDiaries.xslt"?>
+<diaries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TravelDiaries.xsd">
+    <diary customer="Izzy">
+        <entry date="2021-04-13">
+            <title>Best pasta in the world</title>
+            <location>Venice, Italy</location>
+            <description>A picturesque hole in the wall serving up the best and the freshest pasta ever!</description>
+            <images>
+                <image>https://toronto.dalmorosfreshpastatogo.com/images/yootheme/products-pesto.jpg</image>
+            </images>
+        </entry>
+    </diary>
+    <diary customer="Jasmin">
+        <entry date="2021-07-07">
+            <title>Views on Views!</title>
+            <location>Innsbruck, Austria</location>
+            <description>An adorable town set in the heart of the mountains</description>
+            <images>
+                <image>https://www.thetravelmagazine.net/wp-content/uploads/Maria-Theresien-Stra%C3%9Fe-%C2%A9-Innsbruck-Tourismus-Christof-Lackner.jpg</image>
+            </images>
+        </entry>
+    </diary>
+    <diary customer="Sammy">
+        <entry date="2021-05-02">
+            <title>Smiling Quokkas</title>
+            <location>Rottnest Island, Australia</location>
+            <description>Fury friends come and say hello on this beautiful island</description>
+            <images>
+                <image>https://media1.popsugar-assets.com/files/thumbor/S2nWut9j66lvfUepbu9zhyXHU08/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/07/25/949/n/1922441/addurlfsWadD/i/Rottnest-Island-Quokka-Pictures.jpg</image>            </images>
+        </entry>
+    </diary>
+</diaries>
